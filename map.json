@@ -313,8 +313,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "INSERT",
-                    "label": "INS"
+                    "key": "FUN2",
+                    "label": "\u01922"
                 }
             }
         },
@@ -510,6 +510,10 @@
                 "0": {
                     "key": "DELETE",
                     "label": "DEL"
+                },
+                "1": {
+                    "key": "INSERT",
+                    "label": "INS"
                 }
             }
         },
@@ -692,6 +696,10 @@
                 "0": {
                     "key": "PAGEUP",
                     "label": "PGUP"
+                },
+                "1": {
+                    "key": "HOME",
+                    "label": "HOME"
                 }
             }
         },
@@ -705,10 +713,6 @@
                 "0": {
                     "key": "LSHIFT",
                     "label": "L\u21d1"
-                },
-                "1": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
                 }
             }
         },
@@ -882,6 +886,10 @@
                 "0": {
                     "key": "PAGEDOWN",
                     "label": "PGDN"
+                },
+                "1": {
+                    "key": "END",
+                    "label": "END"
                 }
             }
         },
@@ -945,8 +953,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LGUI",
-                    "label": "LGUI"
+                    "key": "RGUI",
+                    "label": "RGUI"
                 }
             }
         },
@@ -958,8 +966,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN2",
-                    "label": "\u01922"
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
