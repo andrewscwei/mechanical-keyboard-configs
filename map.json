@@ -22,6 +22,10 @@
             "h": 4,
             "layers": {
                 "0": {
+                    "key": "`",
+                    "label": "`"
+                },
+                "1": {
                     "key": "ESCAPE",
                     "label": "ESC"
                 },
@@ -282,10 +286,7 @@
             "w": 4,
             "h": 4,
             "layers": {
-                "0": {
-                    "key": "BACKTICK",
-                    "label": "`"
-                }
+
             }
         },
         {
