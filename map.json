@@ -11,7 +11,10 @@
         "Generator": "KIICONF 0.2"
     },
     "defines": [
-
+        {
+            "name": "",
+            "value": ""
+        }
     ],
     "matrix": [
         {
@@ -286,7 +289,14 @@
             "w": 4,
             "h": 4,
             "layers": {
-
+                "0": {
+                    "key": "BACKSPACE",
+                    "label": "BKSP"
+                },
+                "1": {
+                    "key": "DELETE",
+                    "label": "DEL"
+                }
             }
         },
         {
@@ -947,6 +957,10 @@
                 "0": {
                     "key": "SPACE",
                     "label": "[&nbsp;]"
+                },
+                "2": {
+                    "key": "CONS:PAUSEPLAY",
+                    "label": "PL\/PS"
                 }
             }
         },
