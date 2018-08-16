@@ -6,4 +6,8 @@ Use the [web configurator](https://configurator.input.club/?layout=WhiteFox-TheT
 
 ## Flashing
 
-See https://github.com/kiibohd/controller/blob/master/Documentation/Keyboards/WhiteFox.md#flashing---macos.
+> See https://github.com/kiibohd/controller/blob/master/Documentation/Keyboards/WhiteFox.md#flashing---macos.
+
+```sh
+$ dfu-util -D kiibohd.dfu.bin
+```
