@@ -11,10 +11,7 @@
         "Generator": "KIICONF 0.2"
     },
     "defines": [
-        {
-            "name": "",
-            "value": ""
-        }
+
     ],
     "matrix": [
         {
@@ -94,6 +91,10 @@
                 "1": {
                     "key": "F3",
                     "label": "F3"
+                },
+                "2": {
+                    "key": "#:ledControl( 5, 255 )",
+                    "label": "LED TOG"
                 }
             }
         },
@@ -111,6 +112,10 @@
                 "1": {
                     "key": "F4",
                     "label": "F4"
+                },
+                "2": {
+                    "key": "#:ledControl( 3, 0 )",
+                    "label": "LED OFF"
                 }
             }
         },
@@ -324,8 +329,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN2",
-                    "label": "\u01922"
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
@@ -365,6 +370,10 @@
                 "0": {
                     "key": "W",
                     "label": "W"
+                },
+                "1": {
+                    "key": "UP",
+                    "label": "\u2191"
                 }
             }
         },
@@ -443,6 +452,10 @@
                 "0": {
                     "key": "I",
                     "label": "I"
+                },
+                "1": {
+                    "key": "UP",
+                    "label": "\u2191"
                 }
             }
         },
@@ -536,8 +549,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN1",
-                    "label": "\u01921"
+                    "key": "LCTRL",
+                    "label": "LCTRL"
                 }
             }
         },
@@ -551,6 +564,10 @@
                 "0": {
                     "key": "A",
                     "label": "A"
+                },
+                "1": {
+                    "key": "LEFT",
+                    "label": "\u2190"
                 }
             }
         },
@@ -564,6 +581,10 @@
                 "0": {
                     "key": "S",
                     "label": "S"
+                },
+                "1": {
+                    "key": "DOWN",
+                    "label": "\u2193"
                 }
             }
         },
@@ -577,6 +598,10 @@
                 "0": {
                     "key": "D",
                     "label": "D"
+                },
+                "1": {
+                    "key": "RIGHT",
+                    "label": "\u2192"
                 }
             }
         },
@@ -629,6 +654,10 @@
                 "0": {
                     "key": "J",
                     "label": "J"
+                },
+                "1": {
+                    "key": "LEFT",
+                    "label": "\u2190"
                 }
             }
         },
@@ -642,6 +671,10 @@
                 "0": {
                     "key": "K",
                     "label": "K"
+                },
+                "1": {
+                    "key": "DOWN",
+                    "label": "\u2193"
                 }
             }
         },
@@ -655,6 +688,10 @@
                 "0": {
                     "key": "L",
                     "label": "L"
+                },
+                "1": {
+                    "key": "RIGHT",
+                    "label": "\u2192"
                 }
             }
         },
@@ -724,6 +761,10 @@
                 "0": {
                     "key": "LSHIFT",
                     "label": "L\u21d1"
+                },
+                "1": {
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
@@ -867,6 +908,10 @@
                 "0": {
                     "key": "RSHIFT",
                     "label": "R\u21d1"
+                },
+                "1": {
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
@@ -886,8 +931,8 @@
                     "label": "PGUP"
                 },
                 "2": {
-                    "key": "#:ledControl( 1, 15 )",
-                    "label": "LED+"
+                    "key": "CONS:VOLUMEUP",
+                    "label": "VOL+"
                 }
             }
         },
@@ -916,8 +961,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCTRL",
-                    "label": "LCTRL"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 }
             }
         },
@@ -985,8 +1030,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
+                    "key": "FUN2",
+                    "label": "\u01922"
                 }
             }
         },
@@ -1006,8 +1051,8 @@
                     "label": "HOME"
                 },
                 "2": {
-                    "key": "#:ledControl( 3, 0 )",
-                    "label": "LED OFF"
+                    "key": "CONS:REWIND",
+                    "label": "RW"
                 }
             }
         },
@@ -1027,8 +1072,8 @@
                     "label": "PGDN"
                 },
                 "2": {
-                    "key": "#:ledControl( 0, 15 )",
-                    "label": "LED-"
+                    "key": "CONS:VOLUMEDOWN",
+                    "label": "VOL-"
                 }
             }
         },
@@ -1048,8 +1093,8 @@
                     "label": "END"
                 },
                 "2": {
-                    "key": "#:ledControl( 4, 255 )",
-                    "label": "LED ON"
+                    "key": "CONS:FASTFORWARD",
+                    "label": "FF"
                 }
             }
         }
