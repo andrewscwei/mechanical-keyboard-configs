@@ -312,12 +312,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKSPACE",
-                    "label": "BKSP"
-                },
-                "1": {
                     "key": "DELETE",
                     "label": "DEL"
+                },
+                "1": {
+                    "key": "INSERT",
+                    "label": "INS"
                 }
             }
         },
@@ -329,8 +329,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
+                    "key": "#:None",
+                    "label": "NONE"
                 }
             }
         },
@@ -532,12 +532,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "DELETE",
-                    "label": "DEL"
-                },
-                "1": {
-                    "key": "INSERT",
-                    "label": "INS"
+                    "key": "#:None",
+                    "label": "NONE"
                 }
             }
         },
@@ -746,12 +742,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "PAGEUP",
-                    "label": "PGUP"
-                },
-                "1": {
-                    "key": "HOME",
-                    "label": "HOME"
+                    "key": "#:None",
+                    "label": "NONE"
                 }
             }
         },
@@ -944,12 +936,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "PAGEDOWN",
-                    "label": "PGDN"
-                },
-                "1": {
-                    "key": "END",
-                    "label": "END"
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
