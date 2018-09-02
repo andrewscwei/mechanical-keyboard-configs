@@ -371,9 +371,9 @@
                     "key": "W",
                     "label": "W"
                 },
-                "1": {
-                    "key": "UP",
-                    "label": "\u2191"
+                "2": {
+                    "key": "#:mouseOut( 0, 0, -1 )",
+                    "label": "\u2191 x1"
                 }
             }
         },
@@ -565,9 +565,9 @@
                     "key": "A",
                     "label": "A"
                 },
-                "1": {
-                    "key": "LEFT",
-                    "label": "\u2190"
+                "2": {
+                    "key": "#:mouseOut( 0, -1, 0 )",
+                    "label": "\u2190 x1"
                 }
             }
         },
@@ -582,9 +582,9 @@
                     "key": "S",
                     "label": "S"
                 },
-                "1": {
-                    "key": "DOWN",
-                    "label": "\u2193"
+                "2": {
+                    "key": "#:mouseOut( 0, 0, 1 )",
+                    "label": "\u2193 x1"
                 }
             }
         },
@@ -599,9 +599,9 @@
                     "key": "D",
                     "label": "D"
                 },
-                "1": {
-                    "key": "RIGHT",
-                    "label": "\u2192"
+                "2": {
+                    "key": "#:mouseOut( 0, 1, 0 )",
+                    "label": "\u2192 x1"
                 }
             }
         },
@@ -731,6 +731,10 @@
                 "0": {
                     "key": "ENTER",
                     "label": "\u21b5"
+                },
+                "2": {
+                    "key": "#:mouseOut( 1, 0, 0 )",
+                    "label": "Btn 1"
                 }
             }
         },
@@ -761,10 +765,6 @@
                 "0": {
                     "key": "LSHIFT",
                     "label": "L\u21d1"
-                },
-                "1": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
                 }
             }
         },
@@ -909,9 +909,9 @@
                     "key": "RSHIFT",
                     "label": "R\u21d1"
                 },
-                "1": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
+                "2": {
+                    "key": "#:mouseOut( 2, 0, 0 )",
+                    "label": "Btn 2"
                 }
             }
         },
