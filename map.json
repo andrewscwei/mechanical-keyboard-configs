@@ -312,12 +312,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "DELETE",
-                    "label": "DEL"
+                    "key": "BACKSPACE",
+                    "label": "BKSP"
                 },
                 "1": {
-                    "key": "INSERT",
-                    "label": "INS"
+                    "key": "DELETE",
+                    "label": "DEL"
                 }
             }
         },
@@ -371,9 +371,13 @@
                     "key": "W",
                     "label": "W"
                 },
-                "2": {
+                "1": {
                     "key": "#:mouseOut( 0, 0, -1 )",
                     "label": "\u2191 x1"
+                },
+                "2": {
+                    "key": "#:mouseOut( 0, 0, -5 )",
+                    "label": "\u2191 x5"
                 }
             }
         },
@@ -545,8 +549,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCTRL",
-                    "label": "LCTRL"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 }
             }
         },
@@ -561,9 +565,13 @@
                     "key": "A",
                     "label": "A"
                 },
-                "2": {
+                "1": {
                     "key": "#:mouseOut( 0, -1, 0 )",
                     "label": "\u2190 x1"
+                },
+                "2": {
+                    "key": "#:mouseOut( 0, -5, 0 )",
+                    "label": "\u2190 x5"
                 }
             }
         },
@@ -578,9 +586,13 @@
                     "key": "S",
                     "label": "S"
                 },
-                "2": {
+                "1": {
                     "key": "#:mouseOut( 0, 0, 1 )",
                     "label": "\u2193 x1"
+                },
+                "2": {
+                    "key": "#:mouseOut( 0, 0, 5 )",
+                    "label": "\u2193 x5"
                 }
             }
         },
@@ -595,9 +607,13 @@
                     "key": "D",
                     "label": "D"
                 },
-                "2": {
+                "1": {
                     "key": "#:mouseOut( 0, 1, 0 )",
                     "label": "\u2192 x1"
+                },
+                "2": {
+                    "key": "#:mouseOut( 0, 5, 0 )",
+                    "label": "\u2192 x5"
                 }
             }
         },
@@ -757,6 +773,10 @@
                 "0": {
                     "key": "LSHIFT",
                     "label": "L\u21d1"
+                },
+                "1": {
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
@@ -901,6 +921,10 @@
                     "key": "RSHIFT",
                     "label": "R\u21d1"
                 },
+                "1": {
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
+                },
                 "2": {
                     "key": "#:mouseOut( 2, 0, 0 )",
                     "label": "Btn 2"
@@ -936,8 +960,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
+                    "key": "#:None",
+                    "label": "NONE"
                 }
             }
         },
@@ -949,8 +973,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN1",
-                    "label": "\u01921"
+                    "key": "LCTRL",
+                    "label": "LCTRL"
                 }
             }
         },
@@ -1005,8 +1029,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RGUI",
-                    "label": "RGUI"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 }
             }
         },
