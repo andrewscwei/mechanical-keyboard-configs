@@ -371,13 +371,9 @@
                     "key": "W",
                     "label": "W"
                 },
-                "1": {
+                "2": {
                     "key": "#:mouseOut( 0, 0, -1 )",
                     "label": "\u2191 x1"
-                },
-                "2": {
-                    "key": "#:mouseOut( 0, 0, -5 )",
-                    "label": "\u2191 x5"
                 }
             }
         },
@@ -460,6 +456,10 @@
                 "1": {
                     "key": "UP",
                     "label": "\u2191"
+                },
+                "2": {
+                    "key": "CONS:VOLUMEUP",
+                    "label": "VOL+"
                 }
             }
         },
@@ -565,13 +565,9 @@
                     "key": "A",
                     "label": "A"
                 },
-                "1": {
+                "2": {
                     "key": "#:mouseOut( 0, -1, 0 )",
                     "label": "\u2190 x1"
-                },
-                "2": {
-                    "key": "#:mouseOut( 0, -5, 0 )",
-                    "label": "\u2190 x5"
                 }
             }
         },
@@ -586,13 +582,9 @@
                     "key": "S",
                     "label": "S"
                 },
-                "1": {
+                "2": {
                     "key": "#:mouseOut( 0, 0, 1 )",
                     "label": "\u2193 x1"
-                },
-                "2": {
-                    "key": "#:mouseOut( 0, 0, 5 )",
-                    "label": "\u2193 x5"
                 }
             }
         },
@@ -607,13 +599,9 @@
                     "key": "D",
                     "label": "D"
                 },
-                "1": {
+                "2": {
                     "key": "#:mouseOut( 0, 1, 0 )",
                     "label": "\u2192 x1"
-                },
-                "2": {
-                    "key": "#:mouseOut( 0, 5, 0 )",
-                    "label": "\u2192 x5"
                 }
             }
         },
@@ -670,6 +658,10 @@
                 "1": {
                     "key": "LEFT",
                     "label": "\u2190"
+                },
+                "2": {
+                    "key": "CONS:REWIND",
+                    "label": "RW"
                 }
             }
         },
@@ -687,6 +679,10 @@
                 "1": {
                     "key": "DOWN",
                     "label": "\u2193"
+                },
+                "2": {
+                    "key": "CONS:VOLUMEDOWN",
+                    "label": "VOL-"
                 }
             }
         },
@@ -704,6 +700,10 @@
                 "1": {
                     "key": "RIGHT",
                     "label": "\u2192"
+                },
+                "2": {
+                    "key": "CONS:FASTFORWARD",
+                    "label": "FF"
                 }
             }
         },
