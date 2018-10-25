@@ -773,10 +773,6 @@
                 "0": {
                     "key": "LSHIFT",
                     "label": "L\u21d1"
-                },
-                "1": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
                 }
             }
         },
@@ -921,10 +917,6 @@
                     "key": "RSHIFT",
                     "label": "R\u21d1"
                 },
-                "1": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
-                },
                 "2": {
                     "key": "#:mouseOut( 2, 0, 0 )",
                     "label": "Btn 2"
@@ -960,8 +952,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:None",
-                    "label": "NONE"
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
