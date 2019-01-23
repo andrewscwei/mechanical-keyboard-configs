@@ -4,6 +4,10 @@
 
 Use the [web configurator](https://configurator.input.club/?layout=WhiteFox-TheTrueFox) and import `map.json`.
 
+## Wiki
+
+> See https://kiibohd.github.io/wiki/#/
+
 ## Flashing
 
 > See https://github.com/kiibohd/controller/blob/master/Documentation/Keyboards/WhiteFox.md#flashing---macos.
