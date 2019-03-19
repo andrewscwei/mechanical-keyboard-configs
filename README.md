@@ -10,4 +10,6 @@ Use the [QMK Configurator](https://config.qmk.fm/#/dz60/**LAYOUT_directional**) 
 
 > See https://beta.docs.qmk.fm/newbs/newbs_flashing
 
-Open [QMK Tookbox](https://github.com/qmk/qmk_toolbox/releases) and flash `layout.hex`.
+1. Open [QMK Tookbox](https://github.com/qmk/qmk_toolbox/releases)
+2. Hold `SPACE + B` on keyboard while plugging into computer to enter DFU mode
+3. Flash `layout.hex`.
