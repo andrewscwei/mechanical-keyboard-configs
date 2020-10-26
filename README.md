@@ -8,6 +8,12 @@ Use the [web configurator](https://configurator.input.club/?layout=WhiteFox-TheT
 
 > See https://kiibohd.github.io/wiki/#/
 
+## Configurator
+
+```sh
+$ brew cask install kiibohd-configurator
+```
+
 ## Flashing
 
 > See https://github.com/kiibohd/controller/blob/master/Documentation/Keyboards/WhiteFox.md#flashing---macos.
