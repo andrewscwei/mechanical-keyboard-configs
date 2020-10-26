@@ -6,6 +6,12 @@
 
 Use the [QMK Configurator](https://config.qmk.fm/#/dz60/**LAYOUT_directional**) and import `layout.json`.
 
+## Configurator
+
+```sh
+$ brew cask install qmk-toolbox
+```
+
 ## Flashing
 
 > See https://beta.docs.qmk.fm/newbs/newbs_flashing
