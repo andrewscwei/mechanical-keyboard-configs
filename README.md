@@ -16,6 +16,6 @@ $ brew cask install qmk-toolbox
 
 > See https://beta.docs.qmk.fm/newbs/newbs_flashing
 
-1. Open [QMK Tookbox](https://github.com/qmk/qmk_toolbox/releases)
+1. Open [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
 2. Hold `SPACE + B` on keyboard while plugging into computer to enter DFU mode
 3. Flash `layout.hex`.
