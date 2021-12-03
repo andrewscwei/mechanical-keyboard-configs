@@ -6,11 +6,11 @@
 
 ## Setup
 
-To configure key mappings, use the web [QMK Configurator](https://config.qmk.fm/#/dz60/**LAYOUT_directional**). To flash a firmware to the keyboard, install the QMK Toolbox app:
-
-```sh
-$ brew cask install qmk-toolbox
-```
+1. To configure key mappings, use the web [QMK Configurator](https://config.qmk.fm/#/dz60/**LAYOUT_directional**)
+2. To flash a firmware to the keyboard, install the QMK Toolbox app:
+    ```sh
+    $ brew cask install qmk-toolbox
+    ```
 
 ## Usage
 
@@ -22,4 +22,5 @@ $ brew cask install qmk-toolbox
     2. Ensure keyboard is unplugged
     3. Hold `SPACE + B` on keyboard while plugging it into computer to enter DFU mode
     4. Flash `*.hex` firmware file from the app.
-    > For more info see https://beta.docs.qmk.fm/newbs/newbs_flashing
+
+> For more info see https://beta.docs.qmk.fm/newbs/newbs_flashing
