@@ -1,23 +1,28 @@
-# WhiteFox True Fox Presets for macOS
+# WhiteFox True Fox Configuration for macOS
 
 ![](/layout.png?raw=true)
 
-Use the [web configurator](https://configurator.input.club/?layout=WhiteFox-TheTrueFox) and import `map.json`.
+## Setup
 
-## Wiki
-
-> See https://kiibohd.github.io/wiki/#/
-
-## Configurator
+To configure key mappings, ~~either use the (recommended) [web configurator](https://configurator.input.club/?layout=WhiteFox-TheTrueFox) or~~ install the IC Configurator app:
 
 ```sh
 $ brew cask install kiibohd-configurator
 ```
 
-## Flashing
+You can also download the latest version of the IC Configurator app here: https://kiibohd.github.io/wiki/#/Quickstart.
 
-> See https://github.com/kiibohd/controller/blob/master/Documentation/Keyboards/WhiteFox.md#flashing---macos.
+## Usage
 
-```sh
-$ dfu-util -D kiibohd.dfu.bin
-```
+1. In the configurator, import `map.json`
+2. Make any necessary key mapping changes
+3. Select **Download Firmware**
+4. Flash the firmware to the connected WhiteFox keyboard:
+    ```sh
+    $ dfu-util -D kiibohd.dfu.bin
+    ```
+    > See https://kiibohd.github.io/wiki/#/Quickstart.
+
+## Resources
+
+Wiki: https://kiibohd.github.io/wiki/#/
