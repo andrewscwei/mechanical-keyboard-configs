@@ -1,8 +1,8 @@
 # DZ60 Presets for macOS
 
-![](/layer1.png?raw=true)
-![](/layer2.png?raw=true)
-![](/layer3.png?raw=true)
+![](/dz60/layer1.png?raw=true)
+![](/dz60/layer2.png?raw=true)
+![](/dz60/layer3.png?raw=true)
 
 ## Setup
 

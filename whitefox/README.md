@@ -1,6 +1,6 @@
 # WhiteFox True Fox Configuration for macOS
 
-![](/layout.png?raw=true)
+![](/whitefox/layout.png?raw=true)
 
 ## Setup
 
